@@ -7,8 +7,8 @@
 
         default_layer {
             bindings = <
-                &kp C_VOL_UP      &kp C_VOL_DOWN    &kp C_PLAY_PAUSE
-                &kp LC(C)         &kp LC(V)         &kp ENTER
+                &kp C_VOL_UP      &kp C_VOL_DOWN      &kp C_PLAY_PAUSE
+                &kp LCTRL C       &kp LCTRL V         &kp ENTER
             >;
         };
     };
