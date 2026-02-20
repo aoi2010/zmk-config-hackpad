@@ -17,7 +17,7 @@
         compatible = "zmk,keymap";
 
         default_layer { // Layer 0
-            display-name = "Base";
+            display-name = "CODE";
 // ----------------------------------------------
 // |      C      |        V       |      X      |
 // |    &mo 1    |   UNDO LEFT    |    Enter    |
@@ -27,7 +27,7 @@
             >;
         };
         abc { // Layer 1
-            display-name = "ABC";
+            display-name = "AUDIO";
 // ----------------------------------------------
 // |      A      |       B       |       C      |
 // |    &trans   |    &trans     |     &trans   |
