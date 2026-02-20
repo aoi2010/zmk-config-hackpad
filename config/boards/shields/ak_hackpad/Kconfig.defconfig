@@ -1,0 +1,6 @@
+if SHIELD_HACKPAD
+
+config ZMK_KEYBOARD_NAME
+    default "HackPad"
+
+endif
