@@ -37,4 +37,32 @@
             >;
         };
     };
+
+    combos {
+        compatible = "zmk,combos";
+
+        // --- Bootloader Hold Combo ---
+        bootloader_combo {
+            timeout-ms = <3000>;
+            require-prior-idle-ms = <200>;
+            key-positions = <0 5>;
+            bindings = <&bootloader>;
+        };
+
+        // --- Layer 0 Combo: 1 + 2 → Ctrl+Y ---
+        layer0_ctrl_y {
+            timeout-ms = <50>;
+            key-positions = <1 2>;
+            layers = <0>;
+            bindings = <&kp LC(Y)>;
+        };
+
+        // --- Layer 1 Combo: 0 + 1 → Mute ---
+        layer1_mute {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            layers = <1>;
+            bindings = <&kp C_MUTE>;
+        };
+    };
 };
