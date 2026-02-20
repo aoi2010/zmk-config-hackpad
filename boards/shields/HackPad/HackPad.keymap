@@ -4,11 +4,9 @@
  / {
      keymap {
          compatible = "zmk,keymap";
-
          default_layer {
              bindings = <
-                 &kp C_VOL_UP &kp C_VOL_DOWN &kp C_PLAY_PAUSE
-                 &kp LC(C) &kp LC(V) &kp ENTER
+                 &kp A &kp B &kp C
              >;
          };
      };
