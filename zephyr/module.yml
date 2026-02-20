@@ -1,3 +1,4 @@
+name: HackPad
 build:
   settings:
     board_root: .
